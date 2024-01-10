@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="Login.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="maincontainer">
+            <div class="innercontainer">
+                <h1>Login</h1>
+                <div class="inputs">
+                    <input type="text" id="input" placeholder="Email or User Name"> 
+                    <img src="/images/Tick.png" alt="Ok" id="Ok">
+                    <p id="para1">
+                        Wrong Credincial
+                    </p>
+                </div>
+                <div class="inputs">
+                    <input type="password" id="password" class="second" placeholder="Password">
+                    <img src="/images/Tick.png" alt="Ok" id="Ok1">
+                    <p id="para2">
+                        Wrong Credincial
+                    </p>
+                </div>
+                
+                <button type="submit" onclick="CheckInput()">Login</button>
+
+                <p>
+                    I have'n any Account on this! Create New <a href="Signup.html">Account</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Login.js"></script> 
+</body>
+</html>

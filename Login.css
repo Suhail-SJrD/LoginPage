@@ -1,0 +1,77 @@
+/* Adding Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,900&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+.container
+{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .maincontainer{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .maincontainer > .innercontainer > .inputs > input{
+    display: inline-block;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 35px;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline:none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.container > .maincontainer > .innercontainer > .inputs > #para1{
+    color: red;
+    display: none;
+    margin-top: -5px;
+}
+.container > .maincontainer > .innercontainer > .inputs > #para2{
+    color: red;
+    margin-top: -15px;
+    display: none;
+}
+
+.container > .maincontainer > .innercontainer > .inputs > .second{
+    margin-bottom: 20px;
+}
+.container > .maincontainer > .innercontainer > .inputs > img{
+    height: 25px;
+    width: 20px;
+    transform: translateY(9px);
+    margin-left: 10px;
+    display:none;
+}
+.container > .maincontainer > .innercontainer > button{
+    width: 90px;
+    font-size: 17px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: green;
+}
+.container > .maincontainer > .innercontainer > p {
+    font-size: 18x;
+}
+.container > .maincontainer > .innercontainer > p > a{
+    color: green;
+    text-decoration: none;
+
+}
